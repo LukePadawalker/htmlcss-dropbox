@@ -31,6 +31,19 @@
 .white-text{
     color: white;
 }
+
+.gray-color{
+    color: gray;
+}
+
+.blue-color{
+    color: var(--primary-color)
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
 .border{
     border: 2px dashed black;
 }
@@ -172,6 +185,8 @@ h1{
 .memberships{
     width: 100%;
     min-height: 2000px;
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
 
 h3{
@@ -210,37 +225,37 @@ h3{
 
 .m-item{
     width: calc(100% / 3 - 30px);
-    height: 1000px;
-    background-color: #cfcfff;
-    border: 1px solid gray;
+    min-height: 1000px;
+    border: 1px solid lightgray;
 }
 
 .single-offer{
     text-align: center;
     padding: 14px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
 }
 
 .team-offer{
     text-align: center;
     padding: 14px;
-    border-bottom: 1px solid gray;   
+    border-bottom: 1px solid lightgray;   
 }
 
 .business-offer{
     text-align: center;
     padding: 14px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
 }
 
 .team2-offer{
     text-align: center;
     padding: 14px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
 }
 
 .list{
-    padding: 30px;
+    padding: 25px;
+    margin-bottom: 40px;
 }
 
 h2{
@@ -252,22 +267,67 @@ h2{
     margin-bottom: 30px;
 }
 
+.try-now-btn{
+    margin: 25px;
+    width: calc(100% - 50px);
+    position: relative;
+    left: 0;
+    right: 0;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
+
+.buy-now{
+    padding: 25px;
+}
 
 
-
+.underlined{
+    text-decoration: underline;
+    color: #0061ff;
+    display: inline;
+}
 
 
 .enterprise2{
     width: 100%;
-    min-height: 400px;
+    min-height: 300px;
     margin-top: 100px;
-    background-color: rgb(212, 212, 252);
-    border: 1px solid gray
+    border: 1px solid lightgray;
+    min-width: 80%;
+    
+}
+
+.enterprise2-content{
+    padding: 30px;
+
+}
+
+.team-enterprise-list{
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
+.contact-us-btn{
+    margin: 25px;
+    width: calc(100% - 50px);
+    position: relative;
+    left: 0;
+    right: 0;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
 
-
+.line{
+    width: 30%;
+    margin: 25px;
+    height: 1px;
+    border: 1px solid lightgray;
+}
 
 /*  Partner  */
 
