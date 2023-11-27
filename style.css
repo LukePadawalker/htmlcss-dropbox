@@ -558,7 +558,7 @@ header .container{
 
 footer{
     width: 100%;
-    min-height: 400px;
+    min-height: 500px;
     background-color: black;
 }
 
@@ -567,4 +567,34 @@ footer{
     min-height: 300px;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.f-item{
+    min-width: calc(100% / 5);
+    margin-bottom: 20px;
+
+}
+
+.separator-container{
+    width: 100%;
+}
+
+.white-separator{
+    height: 1px;
+    width: 15%;
+    background-color: white;
+    margin-bottom: 40px;
+
+}
+
+
+.footer-list-item{
+    margin-bottom: 20px;
+}
+
+.italiano{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
 }
