@@ -28,6 +28,9 @@
     background-color: blueviolet;
 }
 
+.black-text{
+    color: black;
+}
 .white-text{
     color: white;
 }
@@ -45,7 +48,7 @@
 }
 
 .border{
-    border: 2px dashed black;
+    border: 1px solid black;
 }
 
 .flex{
@@ -185,8 +188,8 @@ h1{
 .memberships{
     width: 100%;
     min-height: 2000px;
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h3{
@@ -305,15 +308,15 @@ h2{
 }
 
 .team-enterprise-list{
-    width: 70%;
+    width: 75%;
     flex-direction: column;
     justify-content: space-between;
 }
 
 
 .contact-us-btn{
-    margin: 25px;
-    width: calc(100% - 50px);
+    width: 25%;
+    align-self: flex-start;
     position: relative;
     left: 0;
     right: 0;
@@ -337,14 +340,31 @@ h2{
 
 .partner{
     width: 100%;
-    height: 2000px;
-    background-color: darkslategray;
+    min-height: 500px;
+    padding: 50px;
 }
 
+.find-partner{
 
+}
 
+.partner-image{
+    width: 60%;
+}
 
+.partner-content{
+    width: 40%;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    flex-grow: 0;
 
+}
+
+.find-partner-btn{
+    max-width:max-content;
+}
 /*  Functionalities  */
 
 
