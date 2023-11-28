@@ -18,14 +18,3 @@ Teniamo sempre un approccio ordinato, solo quando tutto funziona passiamo al det
 Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel layout, capendo quindi come e cosa possiamo centralizzare per rendere il nostro codice il più possibile semplice, pulito e quindi mantenibile.
 Non lavoriamo ancora sul responsive, quindi la nostra pagina deve funzionare solo sul vostro desktop a larghezza intera.
 Buon lavoro ma soprattutto buon divertimento!!!
-
-
-
-
-Chiedo scusa per il refactoring, sono consapevole che va fatto.
-
-
-
-Chiedo anche scusa per aver finito cosi al limite l'esercizio, a me piace sempre avere il lavoro finito molto prima però questo week-end (incluso oggi) e stato molto difficile per me per una serie di ragioni (una di queste ragioni è il fatto che io oggi sono stato molto male, per questo sono a malapena riuscito a finire la pagina).
-
-Grazie per la compensione, in futuro sarò molto più puntuale e magari riusciro a completare anche qualche bonus.
